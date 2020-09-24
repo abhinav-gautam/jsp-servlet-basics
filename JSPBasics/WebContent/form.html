@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Student Form</title>
+</head>
+<body>
+	<h3>Student Details</h3>
+	<form action="FormHandle.jsp">
+		First Name: <input type="text" name="firstName" /> <br /> <br />
+		Last Name: <input type="text" name="lastName" /> <br /> <br />
+		Country: <select name="country">
+			<option>India</option>
+			<option>Germany</option>
+			<option>France</option>
+			<option>US</option>
+		</select> <br /><br/>
+		Favorite Programming Language:
+		<input type="radio" name="favLang" value="Python"/> Python
+		<input type="radio" name="favLang" value="GO"/> GO
+		<input type="radio" name="favLang" value="Java"/> Java
+		<input type="radio" name="favLang" value="C++"/> C++
+		<br /><br/>
+		Known Programming Language:
+		<input type="checkbox" name="knownLang" value="Python"/> Python
+		<input type="checkbox" name="knownLang" value="GO"/> GO
+		<input type="checkbox" name="knownLang" value="Java"/> Java
+		<input type="checkbox" name="knownLang" value="C++"/> C++
+		<br /><br/>
+		 <input type="submit" />
+	</form>
+</body>
+</html>
